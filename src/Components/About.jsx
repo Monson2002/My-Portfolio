@@ -1,5 +1,6 @@
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
+// import '../assets/images/monson-final-1MB.png';
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
           <div className="sm:flex sm:flex-col lg:flex-row-reverse sm:justify-center sm:items-center">
             <img
               className="w-4/5 md:w-3/5 lg:w-2/5 mx-auto m-2 rounded-sm"
-              src="src/assets/images/monson-final-1MB.jpg"
+              src="/monson-final-1MB.jpg"
               alt="img not found"
               srcSet=""
             />
