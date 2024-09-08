@@ -20,7 +20,7 @@ export default function About() {
               srcSet=""
             />
             <p className="text-container sm:w-4/5 text-red-300 text-sm sm:text-base lg:text-xl font-normal p-1 sm:p-2 lg:m-4 lg:p-4">
-              I am a student currently studying Computer Science and have previously worked as a React intern. I believe my
+              I am a student currently studying Machine Learning at DAIICT, Gandhinagar and have previously worked as a React intern. I believe my
               knack for trying out new things will help me in moving forward. You can
               connect with me on linkedin and do check out my projects.
               <p>
