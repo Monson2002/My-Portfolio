@@ -1,6 +1,8 @@
 import projects from "../data/Projects";
 
-const Project = projects.map((project) => (
+const project = (course) => {
+  return projects.filter((project) => project.course === course) 
+  .map((project) => (
   <div key={project.id} className="sticky card m-auto w-11/12 sm:w-3/4 bg-base-100 image-full">
     <figure>
       <img
@@ -29,7 +31,8 @@ const Project = projects.map((project) => (
       </div>
     </div>
   </div>
-));
+  )
+)};
 
 export default function Projects() {
   return (
@@ -59,12 +62,25 @@ export default function Projects() {
           </section>
         </section>
         <section className="m-2 sm:m-4 w-11/12">
+          
           <h1 className="p-2 sm:p-4 my-8 sm:my-12 lg:my-16 text-gray-300 font-CustomFont1 text-2xl sm:text-3xl lg:text-4xl underline underline-offset-4 decoration-pink-500 text-center">
             Projects
           </h1>
+          
+          <h1 className="p-1 sm:p-2 my-4 sm:my-6 lg:my-8 text-gray-300 font-CustomFont1 text-lg sm:text-xl lg:text-2xl underline underline-offset-4 decoration-pink-500 text-center">
+            MTech
+          </h1>
           <section className="cards flex flex-col justify-center items-center md:grid md:grid-cols-2">
-            {Project}
+            {project("MTECH")}
           </section>
+
+          <h1 className="p-1 sm:p-2 my-4 sm:my-6 lg:my-8 text-gray-300 font-CustomFont1 text-lg sm:text-xl lg:text-2xl underline underline-offset-4 decoration-pink-500 text-center">
+            BTech
+          </h1>
+          <section className="cards flex flex-col justify-center items-center md:grid md:grid-cols-2">
+            {project("BTECH")}
+          </section>
+        
         </section>
       </main>
     </>

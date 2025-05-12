@@ -134,6 +134,8 @@ export default function Home() {
           <div className="text-container text-gray-300 text-lg sm:text-xl lg:text-2xl font-normal sm:font-medium p-1 sm:py-2">
             <TypeAnimation
               sequence={[
+                "ML/DL",
+                1500, // Waits 1.5s
                 "React",
                 1500, // Waits 1.5s
                 "TypeScript / JavaScript",
@@ -158,7 +160,7 @@ export default function Home() {
             <button
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1DLwG7CPcuUrW-dDHmd5q8REuEKbotF6A/view?usp=sharing"
+                  "https://drive.google.com/file/d/1uTToZcS-GxVwqM2kQXKDRpIPBWdZf_z4/view?usp=sharing"
                 );
               }}
               className="w-auto m-2 sm:m-4 p-1 py-2 sm:py-3 font-medium text-gray-900 rounded-lg group bg-transparent border hover:text-white dark:text-white">
