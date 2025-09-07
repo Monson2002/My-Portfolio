@@ -3,6 +3,14 @@ let index = 0
 const projects = [
   {
     id: index++,
+    title: "EduRAG",
+    img: "/EduRAG.png",
+    demo: "https://ncert-rag.netlify.app/",
+    code: "https://github.com/Monson2002/RAG-Frontend",
+    course: 'MTECH'
+  },
+  {
+    id: index++,
     title: "Fake Review Predictor",
     img: "/fake-review-predictor.png",
     demo: "null",

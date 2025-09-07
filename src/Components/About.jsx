@@ -20,7 +20,11 @@ export default function About() {
               srcSet=""
             />
             <p className="text-container sm:w-4/5 text-red-300 text-sm sm:text-base lg:text-xl font-normal p-1 sm:p-2 lg:m-4 lg:p-4">
-              I am a student currently pursuing my Masters, specializing in Machine Learning at DAIICT, Gandhinagar and have previously worked as an Associate Software Engineer - Intern (React) at <a href="https://coditas.com/" className="text-blue-300">Coditas</a>. As for my research project, I am working on creating defenses against Adversarial attacks on image datasets.
+              I am a student currently pursuing my Masters, specializing in Machine Learning at Dhirubhai Ambani University, Gandhinagar and have previously worked as an Associate Software Engineer - Intern (React) at <a href="https://coditas.com/" className="text-blue-300">Coditas</a>.  
+              <br/>
+              My current area of research is Adversarial Machine Learning, with a focus on creating robust classifiers to Adversarial Patch Attack . Also I had taken part in the "Adversarial Attack Challenge" conducted by Youverse as a part of IEEE IJCB 2025 and won the 2nd and 3rd prizes in it. 
+              <br/>
+              I also have exposure/experience in CV, Pytorch, React, Typescript/JavaScript, SCSS/SASS and Tailwind.
               <p>
                 You can check out my{" "}
                 <a
