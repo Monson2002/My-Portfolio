@@ -3,10 +3,18 @@ let index = 0
 const projects = [
   {
     id: index++,
+    title: "K-Means Compressor",
+    img: "/k-means-compressor.png",
+    demo: "null",
+    code: "https://github.com/Monson2002/KMeans-Compressor",
+    course: 'MTECH'
+  },
+  {
+    id: index++,
     title: "EduRAG",
     img: "/EduRAG.png",
-    demo: "https://ncert-rag.netlify.app/",
-    code: "https://github.com/Monson2002/RAG-Frontend",
+    demo: "null",
+    code: "https://github.com/Monson2002/RAG-Backend",
     course: 'MTECH'
   },
   {
